@@ -15,9 +15,13 @@ function summonCaptainPlanet(planeteerCalls){
   for(var i = 0; i<planeteerCalls.length; i++){
     var planeteerCall = planeteerCalls[i]
     var message = planeteerCall.toUpperCase() +"!"
+
     
     container.push(message)
     //container.push(planeteerCalls[i].toUpperCase() + "!")
+
+    //var message = planeteerCalls.length[i].toUpperCase()
+    container.push(message)
 
     
     
@@ -37,9 +41,13 @@ function longPlaneteerCalls(words) {
 function findTheCheese (foods) {
   var str = []
   for(var i =0; i<foods.length;i++){
+
     var item = foods[i]
     
     if(item ==="cheddar") return "cheddar"
+
+    if(foods.length ==="cheddar") return true
+
   }
   return  "no cheese!"
 }
